@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flashcards.css">
+    <title>Tarjetas didácticas</title>
+</head>
+<body>
+
+    <main>
+    
+        <header>
+          <div class="container">
+            <div id="header">
+              <h1>Tarjetas didácticas</h1>
+              <div>
+                <button id="show_card_box">Agregar tarjeta</button>
+                <button id="delete_cards">Eliminar tarjeta</button>
+              </div>
+            </div>
+          </div>
+        </header>
+        
+        <section>
+          <div class="container">
+            <div id="create_card">
+              <h2>Crear Tarjetas didácticas</h2>
+              <label for="question">Pregunta</label>
+              <textarea id="question" maxlength="280"></textarea>
+              <label for="answer" maxlength="280">Respuesta</label>
+              <br>
+              <textarea id="answer"></textarea>
+              <div>
+                <button id="save_card">Guardar</button> <button id="close_card_box">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <section>
+          <div class="container">
+            <div id="flashcards"></div>
+          </div>
+        </section>
+    
+      </main>
+      
+      <script src="flashcards.js"></script>
+    
+</body>
+</html>
